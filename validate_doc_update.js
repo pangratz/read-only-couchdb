@@ -1,5 +1,5 @@
 function(newDoc, oldDoc, userCtx) {
-    if (userCtx.roles.indexOf('admin') !== -1) {
+    if (userCtx.roles.indexOf('_admin') !== -1) {
         return;
     } else {
         throw ({
