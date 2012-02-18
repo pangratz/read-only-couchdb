@@ -1,0 +1,1 @@
+This design document ensures that the CouchDB database in which this design doc is stored, is ready only and can only be written by admins. Additionally to adding this design doc you have to restrict access to admins as described [here](http://blog.lizconlan.com/sandbox/securing-couchdb.html).
